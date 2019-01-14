@@ -1,0 +1,13 @@
+variable account_id { default = "" }
+variable ami_id { default = "" }
+variable aws_key_name { default = "" }
+variable aws_region { default = "" }
+variable environment { default = "dev" }
+variable expiration { default = "" }
+variable iam_instance_profile { default = "" }
+variable input_cidrs { default = "" }
+variable instance_type { default = "t2.micro" }
+variable port { default = "" }
+variable remote_state_bucket { default = "" }
+variable stack { default = "stack" }
+variable vpc_state_key { default = "" }
